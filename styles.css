@@ -1,0 +1,35 @@
+body{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-content{
+    
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li{
+    list-style: none;
+    
+}
+
+a{
+    color:#F9FAF8 ;
+    text-decoration: none;
+}
