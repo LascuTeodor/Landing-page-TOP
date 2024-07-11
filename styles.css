@@ -1,12 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family:Montserrat,sans-serif;
+}
 body{
     width: auto;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 .header{
     background-color: #1F2937;
     color: #F9FAF8;
+    padding: 5px 80px 20px 80px;
+    margin: 0;
 }
 
 .navbar{
@@ -15,21 +23,44 @@ body{
     justify-content: space-between;
 }
 
-.header-content{
+img{
+    width: 50%;
+    height: 300px;
     
+}
+
+.header-content{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.left-side{
+    width: 40%;
 }
 
 ul{
     display: flex;
-    justify-content: space-around;
+    gap: 20px;
 }
 
 ul li{
     list-style: none;
-    
 }
 
 a{
     color:#F9FAF8 ;
     text-decoration: none;
+}
+
+.try-it-btn{
+    width: 130px;
+    background-color:#3882F6;
+    color: #F9FAF8;
+    font-weight: 600;
+    font-size: large;
+    border-width: 0;
+    border-radius: 5px;
+    padding: 5px 30px 5px 30px;
+    
 }
