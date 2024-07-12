@@ -104,7 +104,34 @@ a{
     display: flex;
     justify-content: end;
     margin-right: 10px;
+}
 
+.sign-up{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sign-up-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-btn button{
+    width:auto;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-style: solid;
+    border-color:#E5E7EB;
+    border-radius: 5px;
+    border-width: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
 }
 
 
